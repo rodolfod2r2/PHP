@@ -104,7 +104,7 @@ Recebendo uma expressão como parâmetro e em seguida são feitas verificações
 ###### EXEMPLOS ######
 
 ```
-while (expressão) comando;
+    while (expressão) comando;
 ----
     while (expressão){
         comando;
@@ -129,23 +129,43 @@ while (expressão) comando;
 		comando;
 	endfor;
 ----
-    foreach (array_expression as $value){
+    foreach (array as $value){
     	comando;
     }
 ----
-    foreach (array_expression as $key => $value){
+    foreach (array as $key => $value){
     	comando;
     }
 ----
-    foreach (array_expression as $value):
+    foreach (array as $value):
         comando;
     endforeach;
 ----
-    foreach (array_expression as $key => $value):
+    foreach (array as $key => $value):
         comando;
     endforeach;
 ```
 
+> QUEBRA DE FLUXO BREAK - CONTINUE
+
+***BREAK***: Pode ser utilizado em laços de `do`, `for`, `while` e `switch`. Ao encontrar um `break` dentro de um desses laços laços para imediatamente a execução do laço, seguindo normalmente o fluxo do script.
+
+***CONTINUE***: Pode ser utilizado em laços de `do`, `for`, `while` e `switch`. Ao encontrar um `continue` dentro de um desses laços volta para o início do laço.
+
+###### EXEMPLOS ######
+
+```
+    while (expressão):
+        comando;
+        break;
+    endwhile;    
+----
+    while (expressão):
+        continue;
+        comando;
+    endwhile;
+    
+```
 
 
 
