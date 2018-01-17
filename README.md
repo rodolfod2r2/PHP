@@ -38,20 +38,20 @@ Permitem executar comandos ou blocos de comandos com base em testes feitos duran
 
 ```
     if (expressão) comando;
-----
+
     if (expressão){
         comando;
         comando;
     }
-----
+
     if (expressão):
         comando;
     endif;
-----    
+    
      if (expressão) comando;
      elseif (expressão) comando;
      else comando;
-----    
+    
     if (expressão){
         comando;
     } elseif (expressão) {
@@ -59,7 +59,7 @@ Permitem executar comandos ou blocos de comandos com base em testes feitos duran
     } else {
         comando;
     }
-----
+
     if (expressão):
         comando;
     elseif (expressão):
@@ -105,42 +105,42 @@ Recebendo uma expressão como parâmetro e em seguida são feitas verificações
 
 ```
     while (expressão) comando;
-----
+
     while (expressão){
         comando;
         comando;
     }
-----
+
     while (expressão):
         comando;
     endwhile;
-----    
+    
     do {
 		comando;
     } while (expressão);
-----    
+    
     for (<inicialização>;<condição>;<incremento ou decremento>)comando;
-----
+
     for (<inicialização>;<condição>;<incremento ou decremento>){
-		comando;
-	}
-----
+        comando;
+    }
+
     for (<inicialização>;<condição>;<incremento ou decremento>):
-		comando;
-	endfor;
-----
+        comando;
+    endfor;
+
     foreach (array as $value){
     	comando;
     }
-----
+
     foreach (array as $key => $value){
     	comando;
     }
-----
+
     foreach (array as $value):
         comando;
     endforeach;
-----
+
     foreach (array as $key => $value):
         comando;
     endforeach;
@@ -159,14 +159,12 @@ Recebendo uma expressão como parâmetro e em seguida são feitas verificações
         comando;
         break;
     endwhile;    
-----
+
     while (expressão):
         continue;
         comando;
     endwhile;
-    
 ```
-
 
 
 
