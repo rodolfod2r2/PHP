@@ -86,3 +86,71 @@ Recebendo uma expressão como parâmetro e em seguida são feitas verificações
     }
 ```
 
+> REPETIÇÃO WHILE - DO WHILE - FOR - FOREACH
+
+***WHILE***: é o comando de repetição (laço) mais simples. Ele testa uma condição e executa um comando, ou um bloco de comandos, até que a condição testada seja falsa.
+
+***DO WHILE***: semelhante ao while, com a simples diferença que a expressão é testada ao final do bloco de comandos.
+
+***FOR***: A primeira expressão (inicialização) é avaliada (executada), uma vez, incondicionalmente, no início do laço. No começo de cada iteração a condição é avaliada. Se a avaliada como `TRUE`, o laço continuará e as instruções aninhada serão executadas. Se avaliada como `FALSE`, a execução do laço terminará.
+
+***FOREACH***: Fornece uma maneira fácil de iterar sobre arrays. O foreach funciona somente em arrays e objetos;
+
+***OBS***:  A cada iteração, o valor do elemento atual é atribuído a $value e o ponteiro interno do array avança uma posição.
+
+***OBS***:  Atribuir a chave do elemento corrente a variável $key a cada iteração.
+
+
+###### EXEMPLOS ######
+
+```
+while (expressão) comando;
+----
+    while (expressão){
+        comando;
+        comando;
+    }
+----
+    while (expressão):
+        comando;
+    endwhile;
+----    
+    do {
+		comando;
+    } while (expressão);
+----    
+    for (<inicialização>;<condição>;<incremento ou decremento>)comando;
+----
+    for (<inicialização>;<condição>;<incremento ou decremento>){
+		comando;
+	}
+----
+    for (<inicialização>;<condição>;<incremento ou decremento>):
+		comando;
+	endfor;
+----
+    foreach (array_expression as $value){
+    	comando;
+    }
+----
+    foreach (array_expression as $key => $value){
+    	comando;
+    }
+----
+    foreach (array_expression as $value):
+        comando;
+    endforeach;
+----
+    foreach (array_expression as $key => $value):
+        comando;
+    endforeach;
+```
+
+
+
+
+
+
+
+
+editando...
