@@ -6,11 +6,11 @@ Exemplos de Códigos em PHP;
 
 > DELIMITADORES PHP:
 
-    `<?php ?>` ou `<? ?>`  -> short-tags.
+    <?php ?> ou <? ?>  -> short-tags.
     
 > SEPARADOR DE INSTRUÇÕES:
 
-    `;` Ponto e vírgula, indica ao sistema fim de instrução.
+    ; Ponto e vírgula, indica ao sistema fim de instrução.
     
 > NOMES DE VARIÁVEIS:
 
@@ -66,5 +66,7 @@ determinado comando ou função.
         comando;
     endif;
 ```
+
+
 
 Editando...
