@@ -116,7 +116,7 @@ Recebendo uma expressão como parâmetro e em seguida são feitas verificações
     endwhile;
     
     do {
-		comando;
+        comando;
     } while (expressão);
     
     for (<inicialização>;<condição>;<incremento ou decremento>)comando;
@@ -165,7 +165,6 @@ Recebendo uma expressão como parâmetro e em seguida são feitas verificações
         comando;
     endwhile;
 ```
-
 
 
 
